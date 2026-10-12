@@ -1,0 +1,30 @@
+{
+  "name": "nextmoney",
+  "version": "1.0.0",
+  "description": "I'm participating in an AI x Fintech hackathon in NYC on October 17, where I plan to build an AI-powered personal finance decision-making agent.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandVamsi1993/nextmoney.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnandVamsi1993/nextmoney/issues"
+  },
+  "homepage": "https://github.com/AnandVamsi1993/nextmoney#readme",
+  "dependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  }
+}
